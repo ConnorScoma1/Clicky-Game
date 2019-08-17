@@ -1,4 +1,4 @@
-### `Clicky-Game`
+### Clicky-Game
 
 ### Clone Repo
 `https://github.com/ConnorScoma1/Clicky-Game.git`
