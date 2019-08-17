@@ -1,5 +1,8 @@
 ### `Clicky-Game`
 
+### Clone
+## `https://github.com/ConnorScoma1/Clicky-Game.git`
+
 ### `npm start`
 
 Runs the app in the development mode.<br>
