@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import cards from "./cards.json";
 
 class App extends Component {
-  // Setting this.state.cards to the cards json array
+
   state = {
     cards,
     score: 0,
@@ -30,9 +30,7 @@ class App extends Component {
       if (o.id === id) {
         if (cards[i].count === 0) {
           cards[i].count = cards[i].count + 1;
-          this.setState({ score: this.state.score + 1 }, function() {
-            console.log(this.state.score);
-          });
+          this.setState({ score: this.state.score + 1 });
           this.state.cards.sort(() => Math.random() - 0.5);
           return true;
         } else {
